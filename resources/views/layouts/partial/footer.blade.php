@@ -9,9 +9,9 @@
           <a href="{{route('site.help')}}" class="text-primary p-2">{{__('site.help')}}</a>
           <a href="{{route('site.terms')}}" class="text-primary p-2">{{__('site.terms')}}</a>
           <a href="{{route('site.privacy')}}" class="text-primary p-2">{{__('site.privacy')}}</a>
-          <a href="{{route('discover.places')}}" class="text-primary p-2">{{__('site.places')}}</a>
+          <!--<a href="{{route('discover.places')}}" class="text-primary p-2">{{__('site.places')}}</a>-->
           <a href="{{route('site.language')}}" class="text-primary p-2">{{__('site.language')}}</a>
-          <a href="https://pixelfed.org" class="text-muted p-2 ml-md-auto" rel="noopener" title="version {{config('pixelfed.version')}}" data-toggle="tooltip">Powered by Pixelfed</a>
+          <a href="https://github.com/bitinn/marisa.club" class="text-muted p-2 ml-md-auto" rel="noopener" data-toggle="tooltip">Powered by Marisa.Club</a>
         </p>
     </div>
   </footer>
